@@ -54,12 +54,19 @@ nav-bar
   .navMenu a {
   }
 }
-@media screen and (min-width: 510px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
   .navMenu a {
-    margin-right: 5rem;
     font-size: 1.2em;
+    margin-right: 3rem;
   }
 }
+@media only screen and (min-width: 800px) {
+  .navMenu a {
+    font-size: 1.4rem;
+    margin-right: 5rem;
+  }
+}
+
 /* ===========
 hero
 ==========
